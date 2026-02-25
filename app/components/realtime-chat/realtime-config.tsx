@@ -9,9 +9,9 @@ import { ServiceProvider } from "@/app/constant";
 
 const providers = [ServiceProvider.OpenAI, ServiceProvider.Azure];
 
-const models = ["gpt-4o-realtime-preview-2024-12-17"];
+const models = ["gpt-audio-1.5","gpt-realtime-1.5","gpt-realtime-mini","gpt-realtime","gpt-4o-mini-realtime-preview","gpt-4o-realtime-preview-2024-12-17"];
 
-const voice = ["alloy", "shimmer", "echo"];
+const voice = ["alloy", "shimmer", "echo", "ash", "ballad", "coral", "sage", "verse"];
 
 export function RealtimeConfigList(props: {
   realtimeConfig: RealtimeConfig;
